@@ -1,0 +1,43 @@
+//Selenium Exception 
+
+1. Exception in thread "main" org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span jsname="V67aGc" class="VfPpkd-vQzf8d">...</span> is not clickable at point (652, 436). Other element would receive the click: 
+Solution : 
+
+2. org.openqa.selenium.NoSuchElementException
+
+3. Exception in thread "main" org.openqa.selenium.ElementNotInteractableException: element not interactable
+
+//Java Exception
+1. Error: Main method not found in class javaconcept.oops.interfaced.ClassImplementingInterface, please define the main method as:
+   public static void main(String[] args)
+ 
+ Sol : Main method should be in public class
+
+
+//Naming conventions
+
+->Class name
+StudentClass
+
+-> constructor 
+StudentClass()
+
+->Method name
+addOperation() , actionPerformed()
+
+-> variable name
+mobileName
+
+->package name
+arrayconcept 
+
+->Interface - ends with able
+Runable, Readable , remote
+
+-> Constant - seprated by _(underscore)
+MAX_PRICE
+
+
+//test
+
+//reo test

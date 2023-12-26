@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ItemPriceCompare]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LTU(failed)">
+    <classes>
+      <class name="testscripts.ItemPriceCompareTest">
+        <methods>
+          <include name="afterTCRunMethod"/>
+          <include name="closebrowser"/>
+          <include name="afterTCRunMethod"/>
+          <include name="launch"/>
+          <include name="fetchItemPrice" invocation-numbers="0"/>
+          <include name="beforeTCRunMethod"/>
+        </methods>
+      </class> <!-- testscripts.ItemPriceCompareTest -->
+      <class name="testscripts.OrderLeastPriceItem">
+        <methods>
+          <include name="afterTCRunMethod"/>
+          <include name="closebrowser"/>
+          <include name="afterTCRunMethod"/>
+          <include name="launch"/>
+          <include name="testcase_OrderLeastPriceItem" invocation-numbers="0"/>
+          <include name="beforeTCRunMethod"/>
+        </methods>
+      </class> <!-- testscripts.OrderLeastPriceItem -->
+    </classes>
+  </test> <!-- LTU(failed) -->
+</suite> <!-- Failed suite [ItemPriceCompare] -->
